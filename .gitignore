@@ -1,0 +1,13 @@
+daisen
+__debug_bin
+sample_trace_medium.csv
+
+
+# Ignore database-related files
+*.sql
+*.sqlite3
+*.csv
+trace/
+# But explicitly track these specific files (use ! to negate previous ignore)
+!sample_trace_small.sqlite3
+!sample_trace_small.csv
